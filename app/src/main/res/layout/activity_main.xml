@@ -16,7 +16,7 @@
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="290dp"
+            android:layout_height="220dp"
             android:paddingBottom="40sp"
             android:paddingTop="70sp"
             app:srcCompat="@drawable/loginpng"/>
@@ -70,5 +70,11 @@
             android:text="Войти"
             android:textColor="@android:color/darker_gray"
             android:textSize="26sp"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/cake"/>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
